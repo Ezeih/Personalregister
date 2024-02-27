@@ -2,6 +2,7 @@
 
 class Personalregister
 {
+    //Det primära är att koden fungerar
     public string Namn { get; set; }
     public double Lon { get; set; }
 }
@@ -11,6 +12,7 @@ class Program
 {
     static void Main()
     {
+
         Personalregister personalregister = new Personalregister();
         Console.WriteLine("Skriv namn:");
         personalregister.Namn = Console.ReadLine();
